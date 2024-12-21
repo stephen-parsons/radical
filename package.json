@@ -1,0 +1,26 @@
+{
+  "name": "radical",
+  "version": "1.0.0",
+  "description": "A game about a rock band from San Francisco that fights an evil government",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "ts": "tsc -w --noEmit",
+    "build": "esbuild client/index.ts --bundle --outfile=dist/client/index.js --sourcemap --watch",
+    "start": "nodemon server/index.ts"
+  },
+  "author": "Stephen Parsons",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.24.0",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2"
+  }
+}

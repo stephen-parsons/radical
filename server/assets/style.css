@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+    background: black;
+}
+
+body { height: 100%;}
+
+.character {
+    width:100px;
+    height: 100px;
+    position: absolute;
+}
+
+.map {
+    width: 1024px;
+    height: 768px;
+}
+
+#map-container {
+    width: 1024px;
+    position: absolute
+}

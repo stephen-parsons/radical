@@ -1,0 +1,12 @@
+{
+  "name": "radical-server",
+  "version": "1.0.0",
+  "description": "Server for Radical",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test",
+    "build": "tsc"
+  },
+  "author": "Stephen Parsons",
+  "license": "ISC"
+}
